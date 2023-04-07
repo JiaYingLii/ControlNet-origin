@@ -36,3 +36,5 @@ class MidasDetector:
             normal_image = (normal * 127.5 + 127.5).clip(0, 255).astype(np.uint8)
 
             return depth_image, normal_image
+
+apply_midas = MidasDetector

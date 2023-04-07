@@ -130,3 +130,5 @@ def nms(x, t, s):
     z = np.zeros_like(y, dtype=np.uint8)
     z[y > t] = 255
     return z
+
+apply_head = Network

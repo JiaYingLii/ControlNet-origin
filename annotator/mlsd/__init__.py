@@ -37,3 +37,5 @@ class MLSDdetector:
         except Exception as e:
             pass
         return img_output[:, :, 0]
+
+apply_mlsd = MLSDdetector
